@@ -27,7 +27,7 @@ public class Basket {
         long sum = 0;
         System.out.println("КОРЗИНА:");
         for (int i = 0; i < purchases.length; i++) {
-           // Purchase purchase = purchases[i];
+            // Purchase purchase = purchases[i]; - лишняя строчка в коде, все данные есть в поле purchase
             if (purchases[i] == null) continue;
             System.out.println("\t" + purchases[i].title + " " + purchases[i].count + " шт. в сумме " +
                     (prices.get(purchases[i].title) * purchases[i].count) + " руб.");

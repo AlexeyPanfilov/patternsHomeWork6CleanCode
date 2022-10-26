@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Map;
-
 public class Purchase {
 
     protected String title;
@@ -11,9 +9,4 @@ public class Purchase {
         this.title = title;
         this.count = count;
     }
-
-//    public Purchase(Map<String, Integer> prices) {
-//        purchases = new Purchase[prices.size()];
-//    }
-
 }
